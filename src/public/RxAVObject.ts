@@ -1,5 +1,5 @@
 import { SDKPlugins } from '../internal/SDKPlugins';
-import { IObjectState } from '../internal/object/state/IObjectState';
+import { IObjectState } from '../internal/object/state/iobjectstate';
 import { iObjectController } from '../internal/object/controller/iObjectController';
 import { MutableObjectState } from '../internal/object/state/MutableObjectState';
 import { RxAVUser } from '../RxLeanCloud';

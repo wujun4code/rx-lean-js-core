@@ -16,7 +16,7 @@ describe('RxLeanEngine', function () {
         });
         randomUsername = random.randomString(8);
     });
-    it('RxLeanEngine#signUp', function (done) {
+    it('RxLeanEngine#callFunction', function (done) {
 
         RxLeanEngine.callFunction('testDic').subscribe(data => {
             console.log(data);
