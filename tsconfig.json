@@ -1,42 +1,9 @@
 {
-  "compileOnSave": true,
-  "compilerOptions": {
-    "lib": [
-      "es5",
-      "dom"
-    ],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "outDir": "out",
-    "target": "es5",
-    "noImplicitAny": true,
-    "types": [
-      "core-js"
-    ]
-  },
-  "formatCodeOptions": {
-    "indentSize": 4,
-    "tabSize": 2,
-    "newLineCharacter": "\r\n",
-    "convertTabsToSpaces": true,
-    "insertSpaceAfterCommaDelimiter": true,
-    "insertSpaceAfterSemicolonInForStatements": true,
-    "insertSpaceBeforeAndAfterBinaryOperators": true,
-    "insertSpaceAfterKeywordsInControlFlowStatements": true,
-    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
-    "placeOpenBraceOnNewLineForFunctions": false,
-    "placeOpenBraceOnNewLineForControlBlocks": false
-  },
-  "atom": {
-    "formatOnSave": true
-  },
-  "include": [
-    "src/**/*",
-    "test/**/*",
-    "typings/index.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "out"
+    }
 }
