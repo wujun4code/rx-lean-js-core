@@ -1,4 +1,4 @@
-import { iobjectstate } from '../state/IObjectState';
+import { iobjectstate } from '../state/iobjectstate';
 import { Observable } from 'rxjs';
 
 export interface iObjectController {

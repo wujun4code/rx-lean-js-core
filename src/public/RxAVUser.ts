@@ -1,6 +1,6 @@
 import { SDKPlugins } from '../internal/SDKPlugins';
 import { RxAVObject } from './RxAVObject';
-import { iobjectstate } from '../internal/object/state/IObjectState';
+import { iobjectstate } from '../internal/object/state/iobjectstate';
 import { MutableObjectState } from '../internal/object/state/MutableObjectState';
 import { IUserController } from '../internal/user/controller/iUserController';
 import { Observable } from 'rxjs/Observable';

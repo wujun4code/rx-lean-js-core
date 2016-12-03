@@ -1,4 +1,4 @@
-import { iobjectstate } from '../object/state/IObjectState';
+import { iobjectstate } from '../object/state/iobjectstate';
 import { IAVDecoder } from './IAVDecoder';
 
 export interface IAVObjectDecoder {

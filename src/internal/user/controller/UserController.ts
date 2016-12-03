@@ -2,7 +2,7 @@ import { HttpResponse } from '../../httpClient/HttpResponse';
 import { AVCommand } from '../../command/AVCommand';
 import { RxAVClient } from '../../../public/RxAVClient';
 import { Observable } from 'rxjs';
-import { iobjectstate } from '../../object/state/IObjectState';
+import { iobjectstate } from '../../object/state/iobjectstate';
 import { IUserController } from './iUserController';
 import { SDKPlugins } from '../../SDKPlugins';
 import { IAVCommandRunner } from '../../command/IAVCommandRunner';

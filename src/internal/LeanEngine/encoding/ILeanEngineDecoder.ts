@@ -1,4 +1,4 @@
-import { iobjectstate } from '../../object/state/IObjectState';
+import { iobjectstate } from '../../object/state/iobjectstate';
 
 export interface ILeanEngineDecoder {
     decodeAVObject(serverResponse: { [key: string]: any }): iobjectstate;

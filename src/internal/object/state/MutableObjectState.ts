@@ -1,4 +1,4 @@
-import { iobjectstate } from './IObjectState';
+import { iobjectstate } from './iobjectstate';
 const _hasOwnProperty = Object.prototype.hasOwnProperty;
 export const has = function(obj: any, prop: any) {
     return _hasOwnProperty.call(obj, prop);

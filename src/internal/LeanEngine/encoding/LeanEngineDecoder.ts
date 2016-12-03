@@ -1,7 +1,7 @@
 import { ILeanEngineDecoder } from './ILeanEngineDecoder';
 import { IAVDecoder } from '../../encoding/IAVDecoder';
 import { IAVObjectDecoder } from '../../encoding/IAVObjectDecoder';
-import { iobjectstate } from '../../object/state/IObjectState';
+import { iobjectstate } from '../../object/state/iobjectstate';
 
 export class LeanEngineDecoder implements ILeanEngineDecoder {
 
