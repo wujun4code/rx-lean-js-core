@@ -1,6 +1,6 @@
-import { iobjectstate } from '../../object/state/iobjectstate';
+import { IObjectState } from '../../object/state/IObjectState';
 
 export interface ILeanEngineDecoder {
-    decodeAVObject(serverResponse: { [key: string]: any }): iobjectstate;
+    decodeAVObject(serverResponse: { [key: string]: any }): IObjectState;
     decodeDictionary(serverResponse: { [key: string]: any }): { [key: string]: any };
 }

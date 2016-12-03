@@ -1,4 +1,4 @@
-export declare interface iobjectstate {
+export declare interface IObjectState {
     isNew: boolean;
     className: string;
     objectId: string;
@@ -6,5 +6,5 @@ export declare interface iobjectstate {
     createdAt: Date;
     serverData: { [key: string]: any };
     containsKey(key: string): boolean;
-    mutatedClone(func: (source: iobjectstate) => void): iobjectstate;
+    mutatedClone(func: (source: IObjectState) => void): IObjectState;
 }

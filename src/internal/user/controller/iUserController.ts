@@ -1,12 +1,12 @@
 import { Observable } from 'rxjs';
-import { iobjectstate } from '../../object/state/iobjectstate';
+import { IObjectState } from '../../object/state/IObjectState';
 
 export /**
  * iUserController
  */
     interface IUserController {
-    signUp(state:iobjectstate,dictionary:{ [key: string]: any }): Observable<iobjectstate>;
-    logIn(username: string, password: string): Observable<iobjectstate>;
-    logInWithParamters(relativeUrl: string, data: { [key: string]: any }): Observable<iobjectstate>;
-    getUser(sessionToken:string): Observable<iobjectstate>;
+    signUp(state:IObjectState,dictionary:{ [key: string]: any }): Observable<IObjectState>;
+    logIn(username: string, password: string): Observable<IObjectState>;
+    logInWithParamters(relativeUrl: string, data: { [key: string]: any }): Observable<IObjectState>;
+    getUser(sessionToken:string): Observable<IObjectState>;
 }
