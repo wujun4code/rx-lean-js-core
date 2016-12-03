@@ -1,6 +1,6 @@
 import { SDKPlugins } from '../internal/SDKPlugins';
 import { RxAVObject } from './RxAVObject';
-import { IObjectState } from '../internal/object/state/IObjectState';
+import { iobjectstate } from '../internal/object/state/IObjectState';
 import { MutableObjectState } from '../internal/object/state/MutableObjectState';
 import { IUserController } from '../internal/user/controller/iUserController';
 import { Observable } from 'rxjs/Observable';
@@ -63,7 +63,7 @@ export class RxAVUser extends RxAVObject {
 
     }
 
-    handlerSignUp(userState: IObjectState) {
+    handlerSignUp(userState: iobjectstate) {
         super.handlerSave(userState);
         this.state.serverData = userState.serverData;
         console.log(this.state);

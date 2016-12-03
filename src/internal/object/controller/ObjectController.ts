@@ -1,4 +1,4 @@
-import { IObjectState } from '../state/IObjectState';
+import { iobjectstate } from '../state/IObjectState';
 import { iObjectController } from './iObjectController';
 import { AVCommand } from '../../command/AVCommand';
 import { IAVCommandRunner } from '../../command/IAVCommandRunner';
@@ -12,7 +12,7 @@ export class ObjectController implements iObjectController {
         this._commandRunner = commandRunner;
     }
 
-    save(state: IObjectState, dictionary: { [key: string]: any }, sessionToken: string): Observable<IObjectState> {
+    save(state: iobjectstate, dictionary: { [key: string]: any }, sessionToken: string): Observable<iobjectstate> {
 
         let encoded = SDKPlugins.instance.Encoder.encode(dictionary);
         let cmd = new AVCommand({
@@ -23,7 +23,7 @@ export class ObjectController implements iObjectController {
 
         return this._commandRunner.runRxCommand(cmd).map(res => {
             let serverState = SDKPlugins.instance.ObjectDecoder.decode(res.body, SDKPlugins.instance.Decoder);
-            serverState = serverState.mutatedClone((s: IObjectState) => {
+            serverState = serverState.mutatedClone((s: iobjectstate) => {
                 s.isNew = res.satusCode == 201;
             });
             return serverState;

@@ -1,7 +1,7 @@
 import { ILeanEngineDecoder } from './ILeanEngineDecoder';
 import { IAVDecoder } from '../../encoding/IAVDecoder';
 import { IAVObjectDecoder } from '../../encoding/IAVObjectDecoder';
-import { IObjectState } from '../../object/state/IObjectState';
+import { iobjectstate } from '../../object/state/IObjectState';
 
 export class LeanEngineDecoder implements ILeanEngineDecoder {
 
@@ -12,8 +12,8 @@ export class LeanEngineDecoder implements ILeanEngineDecoder {
         this._AVDecoder = AVDecoder;
         this._AVObjectDecoder = AVObjectDecoder;
     }
-    
-    decodeAVObject(serverResponse: { [key: string]: any }): IObjectState {
+
+    decodeAVObject(serverResponse: { [key: string]: any }): iobjectstate {
         return this._AVObjectDecoder.decode(serverResponse, this._AVDecoder);
     }
 

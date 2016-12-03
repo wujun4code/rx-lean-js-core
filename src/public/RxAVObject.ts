@@ -1,5 +1,5 @@
 import { SDKPlugins } from '../internal/SDKPlugins';
-import { IObjectState } from '../internal/object/state/iobjectstate';
+import { iobjectstate } from '../internal/object/state/iobjectstate';
 import { iObjectController } from '../internal/object/controller/iObjectController';
 import { MutableObjectState } from '../internal/object/state/MutableObjectState';
 import { RxAVUser } from '../RxLeanCloud';
@@ -73,11 +73,11 @@ export class RxAVObject {
         });
     }
 
-    protected handlerSave(serverState: IObjectState) {
+    protected handlerSave(serverState: iobjectstate) {
         this.state.apply(serverState);
     }
 
-    protected mergeFromServer(serverState: IObjectState) {
+    protected mergeFromServer(serverState: iobjectstate) {
         if (serverState.objectId != null) {
 
         }

@@ -1,4 +1,4 @@
-import { IObjectState } from './IObjectState';
+import { iobjectstate } from './IObjectState';
 const _hasOwnProperty = Object.prototype.hasOwnProperty;
 export const has = function(obj: any, prop: any) {
     return _hasOwnProperty.call(obj, prop);
@@ -6,7 +6,7 @@ export const has = function(obj: any, prop: any) {
 export /**
  * MutableObjectState
  */
-    class MutableObjectState implements IObjectState {
+    class MutableObjectState implements iobjectstate {
     isNew: boolean;
     className: string;
     objectId: string;
@@ -17,14 +17,14 @@ export /**
         if (this.serverData == null) return false;
         return has(this.serverData, key);
     }
-    apply(source: IObjectState) {
+    apply(source: iobjectstate) {
         this.isNew = source.isNew;
         this.objectId = source.objectId;
         this.createdAt = source.createdAt;
         this.updatedAt = source.updatedAt;
         this.serverData = source.serverData;
     }
-    mutatedClone(func: (source: IObjectState) => void): IObjectState {
+    mutatedClone(func: (source: iobjectstate) => void): iobjectstate {
         let clone = this.mutableClone();
         func(clone);
         return clone;

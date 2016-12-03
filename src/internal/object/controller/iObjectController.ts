@@ -1,6 +1,6 @@
-import { IObjectState } from '../state/IObjectState';
+import { iobjectstate } from '../state/IObjectState';
 import { Observable } from 'rxjs';
 
 export interface iObjectController {
-    save(state: IObjectState, dictionary:{ [key: string]: any },sessionToken: string): Observable<IObjectState>;
+    save(state: iobjectstate, dictionary:{ [key: string]: any },sessionToken: string): Observable<iobjectstate>;
 }

@@ -1,4 +1,4 @@
-import { IObjectState } from '../object/state/IObjectState';
+import { iobjectstate } from '../object/state/iobjectstate';
 import { MutableObjectState } from '../object/state/MutableObjectState';
 import { IAVObjectDecoder } from './IAVObjectDecoder';
 import { IAVDecoder } from './IAVDecoder';
@@ -10,13 +10,13 @@ export /**
     constructor() {
     }
 
-    decode(serverResult: any, decoder: IAVDecoder): IObjectState {
+    decode(serverResult: any, decoder: IAVDecoder): iobjectstate {
         let state = new MutableObjectState();
         this.handlerCreateResult(state, serverResult, decoder);
         return state;
     }
 
-    handlerCreateResult(state: MutableObjectState, createResult: any, decoder: IAVDecoder): IObjectState {
+    handlerCreateResult(state: MutableObjectState, createResult: any, decoder: IAVDecoder): iobjectstate {
         if (createResult.createdAt) {
             state.createdAt = createResult.createdAt;
             state.updatedAt = createResult.createdAt;
