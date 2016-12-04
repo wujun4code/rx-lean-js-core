@@ -7,3 +7,5 @@ typings/
 release/
 test/*.js
 **/.leancloud
+out/
+dist/
