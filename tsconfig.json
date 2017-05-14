@@ -10,7 +10,7 @@
     ],
     "outDir": "out",
     "module": "commonjs",
-    "moduleResolution": "node",
+    "moduleResolution": "classic",
     "target": "es2017",
     "baseUrl": ".",
     "paths": {
@@ -44,8 +44,14 @@
         "src/public/*",
         "src/*"
       ],
-      "rxjs":[
+      "rxjs": [
         "node_modules/rxjs/Rx.js"
+      ],
+      "axios": [
+        "node_modules/axios/index.js"
+      ],
+      "jstz": [
+        "node_modules/jstz/index.js"
       ]
     }
   },
