@@ -1,5 +1,5 @@
-import { HttpRequest } from '../httpClient/HttpRequest';
-import { RxAVClient, RxAVUser, RxAVApp } from '../../RxLeanCloud';
+import { HttpRequest } from '@internal/HttpRequest';
+import { RxAVClient, RxAVUser, RxAVApp } from 'RxLeanCloud';
 
 export class AVCommand extends HttpRequest {
     relativeUrl: string;

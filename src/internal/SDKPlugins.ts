@@ -1,44 +1,44 @@
-import { HttpRequest } from './httpClient/HttpRequest';
-import { IRxHttpClient } from './httpClient/iRxHttpClient';
-import { RxHttpClient } from './httpClient/RxHttpClient';
-import { AVCommand } from './command/AVCommand';
-import { IAVCommandRunner } from './command/IAVCommandRunner';
-import { AVCommandRunner } from './command/AVCommandRunner';
-import { IObjectController } from './object/controller/IObjectController';
-import { ObjectController } from './object/controller/ObjectController';
-import { IUserController } from './user/controller/iUserController';
-import { UserController } from './user/controller/UserController';
-import { IQueryController } from './query/controller/IQueryController';
-import { QueryController } from './query/controller/QueryController';
-import { ILeanEngineController } from './LeanEngine/controller/ILeanEngineController';
-import { LeanEngineController } from './LeanEngine/controller/LeanEngineController';
+import { HttpRequest } from '@internal/HttpRequest';
+import { IRxHttpClient } from '@internal/iRxHttpClient';
+import { RxHttpClient } from '@internal/RxHttpClient';
+import { AVCommand } from '@internal/AVCommand';
+import { IAVCommandRunner } from '@internal/IAVCommandRunner';
+import { AVCommandRunner } from '@internal/AVCommandRunner';
+import { IObjectController } from '@internal/IObjectController';
+import { ObjectController } from '@internal/ObjectController';
+import { IUserController } from '@internal/iUserController';
+import { UserController } from '@internal/UserController';
+import { IQueryController } from '@internal/IQueryController';
+import { QueryController } from '@internal/QueryController';
+import { ILeanEngineController } from '@internal/ILeanEngineController';
+import { LeanEngineController } from '@internal/LeanEngineController';
 
-import { IToolController } from './tool/controller/IToolController';
-import { ToolController } from './tool/controller/ToolController';
+import { IToolController } from '@internal/IToolController';
+import { ToolController } from '@internal/ToolController';
 
-import { IAVEncoder } from './encoding/IAVEncoder';
-import { AVEncoder } from './encoding/AVEncoder';
-import { IAVDecoder } from './encoding/IAVDecoder';
-import { AVDecoder } from './encoding/AVDecoder';
-import { IAVObjectDecoder } from './encoding/IAVObjectDecoder';
-import { AVObjectDecoder } from './encoding/AVObjectDecoder';
-import { ILeanEngineDecoder } from './LeanEngine/encoding/ILeanEngineDecoder';
-import { LeanEngineDecoder } from './LeanEngine/encoding/LeanEngineDecoder';
+import { IAVEncoder } from '@internal/IAVEncoder';
+import { AVEncoder } from '@internal/AVEncoder';
+import { IAVDecoder } from '@internal/IAVDecoder';
+import { AVDecoder } from '@internal/AVDecoder';
+import { IAVObjectDecoder } from '@internal/IAVObjectDecoder';
+import { AVObjectDecoder } from '@internal/AVObjectDecoder';
+import { ILeanEngineDecoder } from '@internal/ILeanEngineDecoder';
+import { LeanEngineDecoder } from '@internal/LeanEngineDecoder';
 
-import { IStorage } from './storage/IStorage';
-import { IStorageController } from './storage/controller/IStorageController';
-import { StorageController } from './storage/controller/StorageController';
+import { IStorage } from '@internal/IStorage';
+import { IStorageController } from '@internal/IStorageController';
+import { StorageController } from '@internal/StorageController';
 
-import { IDeviceInfo } from './analytics/IDeviceInfo';
-import { IAnalyticsController } from './analytics/controller/IAnalyticsController';
-import { AnalyticsController } from './analytics/controller/AnalyticsController';
+import { IDeviceInfo } from '@internal/IDeviceInfo';
+import { IAnalyticsController } from '@internal/IAnalyticsController';
+import { AnalyticsController } from '@internal/AnalyticsController';
 
-import { IRxWebSocketClient } from './websocket/IRxWebSocketClient';
-import { IWebSocketClient } from './websocket/IWebSocketClient';
-import { RxWebSocketController } from './websocket/controller/RxWebSocketController';
-import { IRxWebSocketController } from './websocket/controller/IRxWebSocketController';
+import { IRxWebSocketClient } from '@internal/IRxWebSocketClient';
+import { IWebSocketClient } from '@internal/IWebSocketClient';
+import { RxWebSocketController } from '@internal/RxWebSocketController';
+import { IRxWebSocketController } from '@internal/IRxWebSocketController';
 
-import { RxAVClient } from '../public/RxAVClient';
+import { RxAVClient } from '@public/RxAVClient';
 
 export /**
  * SDKPlugins

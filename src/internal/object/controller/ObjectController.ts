@@ -1,8 +1,8 @@
-import { IObjectState } from '../state/IObjectState';
-import { IObjectController } from './IObjectController';
-import { AVCommand } from '../../command/AVCommand';
-import { IAVCommandRunner } from '../../command/IAVCommandRunner';
-import { SDKPlugins } from '../../SDKPlugins';
+import { IObjectState } from '@internal/IObjectState';
+import { IObjectController } from '@internal/IObjectController';
+import { AVCommand } from '@internal/AVCommand';
+import { IAVCommandRunner } from '@internal/IAVCommandRunner';
+import { SDKPlugins } from '@internal/SDKPlugins';
 import { Observable } from 'rxjs';
 
 export class ObjectController implements IObjectController {

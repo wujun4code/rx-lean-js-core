@@ -1,10 +1,10 @@
 import { Observable } from 'rxjs';
-import { HttpRequest } from './HttpRequest';
-import { HttpResponse } from './HttpResponse';
-import { IRxHttpClient } from './iRxHttpClient';
+import { HttpRequest } from '@internal/HttpRequest';
+import { HttpResponse } from '@internal/HttpResponse';
+import { IRxHttpClient } from '@internal/iRxHttpClient';
 import axios, { AxiosRequestConfig, AxiosPromise, AxiosResponse } from 'axios';
 import * as superagent from 'superagent';
-import { RxAVClient } from '../../public/RxAVClient';
+import { RxAVClient } from 'RxAVClient';
 
 export class RxHttpClient implements IRxHttpClient {
     version: number;

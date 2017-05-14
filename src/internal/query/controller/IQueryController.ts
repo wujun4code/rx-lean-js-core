@@ -1,5 +1,5 @@
-import { IObjectState } from '../../object/state/IObjectState';
-import { RxAVQuery } from '../../../RxLeancloud';
+import { IObjectState } from '@internal/IObjectState';
+import { RxAVQuery } from 'RxLeancloud';
 import { Observable } from 'rxjs';
 
 export /**

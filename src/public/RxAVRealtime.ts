@@ -1,8 +1,8 @@
 import { Observable, Subject } from 'rxjs';
-import { RxAVClient, RxAVApp } from './RxAVClient';
-import { SDKPlugins } from '../internal/SDKPlugins';
-import { AVCommand } from '../internal/command/AVCommand';
-import { IRxWebSocketController } from '../internal/websocket/controller/IRxWebSocketController';
+import { RxAVClient, RxAVApp } from 'RxAVClient';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { AVCommand } from '@internal/command/AVCommand';
+import { IRxWebSocketController } from '@internal/websocket/controller/IRxWebSocketController';
 
 export class RxAVRealtime {
 

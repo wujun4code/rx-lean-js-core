@@ -1,4 +1,4 @@
-import { RxAVApp } from '../../../public/RxAVClient';
+import { RxAVApp } from 'RxAVClient';
 
 export interface IObjectState {
     isNew: boolean;

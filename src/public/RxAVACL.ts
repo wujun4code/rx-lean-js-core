@@ -1,5 +1,5 @@
-import { RxAVUser } from './RxAVUser';
-import { RxAVRole } from './RxAVRole';
+import { RxAVUser } from 'RxAVUser';
+import { RxAVRole } from 'RxAVRole';
 
 export type PermissionsMap = { [permission: string]: boolean };
 export type ByIdMap = { [userId: string]: PermissionsMap };

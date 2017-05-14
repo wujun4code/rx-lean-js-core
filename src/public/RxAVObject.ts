@@ -1,9 +1,9 @@
-import { SDKPlugins } from '../internal/SDKPlugins';
-import { IObjectState } from '../internal/object/state/IObjectState';
-import { IObjectController } from '../internal/object/controller/IObjectController';
-import { IStorageController } from '../internal/storage/controller/IStorageController';
-import { MutableObjectState } from '../internal/object/state/MutableObjectState';
-import { RxAVUser, RxAVACL, RxAVClient, RxAVQuery, RxAVApp } from '../RxLeanCloud';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { IObjectState } from '@internal/IObjectState';
+import { IObjectController } from '@internal/IObjectController';
+import { IStorageController } from '@internal/IStorageController';
+import { MutableObjectState } from '@internal/MutableObjectState';
+import { RxAVUser, RxAVACL, RxAVClient, RxAVQuery, RxAVApp } from 'RxLeanCloud';
 import { Observable } from 'rxjs';
 
 /**

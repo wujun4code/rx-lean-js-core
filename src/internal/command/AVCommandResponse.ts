@@ -1,4 +1,4 @@
-import { HttpResponse } from '../httpClient/HttpResponse';
+import { HttpResponse } from '@internal/HttpResponse';
 
 export /**
  * AVCommandResponse

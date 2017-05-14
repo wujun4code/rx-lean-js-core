@@ -1,11 +1,11 @@
 import { Observable } from 'rxjs';
-import { IDeviceInfo } from '../IDeviceInfo';
-import { RxAVAnalytics } from '../../../public/RxAVAnalytics';
-import { RxAVClient } from '../../../public/RxAVClient';
-import { IAnalyticsController } from './IAnalyticsController';
-import { SDKPlugins } from '../../SDKPlugins';
-import { AVCommand } from '../../command/AVCommand';
-import { IAVCommandRunner } from '../../command/IAVCommandRunner';
+import { IDeviceInfo } from '@internal/IDeviceInfo';
+import { RxAVAnalytics } from 'RxAVAnalytics';
+import { RxAVClient } from 'RxAVClient';
+import { IAnalyticsController } from '@internal/IAnalyticsController';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { AVCommand } from '@internal/AVCommand';
+import { IAVCommandRunner } from '@internal/IAVCommandRunner';
 
 export class AnalyticsController implements IAnalyticsController {
     private readonly _commandRunner: IAVCommandRunner;

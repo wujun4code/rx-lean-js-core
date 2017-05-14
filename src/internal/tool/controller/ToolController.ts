@@ -1,4 +1,4 @@
-import { IToolController } from './IToolController';
+import { IToolController } from '@internal/IToolController';
 import { randomBytes, createHash } from 'crypto';
 
 export class ToolController implements IToolController {

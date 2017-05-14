@@ -1,5 +1,5 @@
-import { IObjectState } from '../object/state/IObjectState';
-import { IAVDecoder } from './IAVDecoder';
+import { IObjectState } from '@internal/IObjectState';
+import { IAVDecoder } from '@internal/IAVDecoder';
 
 export interface IAVObjectDecoder {
     decode(serverResult: any, decoder: IAVDecoder): IObjectState;

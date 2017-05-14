@@ -1,8 +1,8 @@
-import { IObjectState } from '../object/state/IObjectState';
-import { MutableObjectState } from '../object/state/MutableObjectState';
-import { IAVObjectDecoder } from './IAVObjectDecoder';
-import { IAVDecoder } from './IAVDecoder';
-import { RxAVObject } from '../../RxLeanCloud';
+import { IObjectState } from '@internal/IObjectState';
+import { MutableObjectState } from '@internal/MutableObjectState';
+import { IAVObjectDecoder } from '@internal/IAVObjectDecoder';
+import { IAVDecoder } from '@internal/IAVDecoder';
+import { RxAVObject } from 'RxLeanCloud';
 
 export /**
  * AVDecoder

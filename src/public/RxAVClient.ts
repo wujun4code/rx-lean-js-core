@@ -1,15 +1,15 @@
-import { SDKPlugins } from '../internal/SDKPlugins';
-import { AVCommand } from '../internal/command/AVCommand';
-import { AVCommandResponse } from '../internal/command/AVCommandResponse';
-import { IAVCommandRunner } from '../internal/command/IAVCommandRunner';
-import { AVCommandRunner } from '../internal/command/AVCommandRunner';
-import { IStorage } from '../internal/storage/IStorage';
-import { IDeviceInfo } from '../internal/analytics/IDeviceInfo';
-import { IRxWebSocketClient } from '../internal/websocket/IRxWebSocketClient';
-import { IWebSocketClient } from '../internal/websocket/IWebSocketClient';
-import { StorageController } from '../internal/storage/controller/StorageController';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { AVCommand } from '@internal/AVCommand';
+import { AVCommandResponse } from '@internal/AVCommandResponse';
+import { IAVCommandRunner } from '@internal/IAVCommandRunner';
+import { AVCommandRunner } from '@internal/AVCommandRunner';
+import { IStorage } from '@internal/IStorage';
+import { IDeviceInfo } from '@internal/IDeviceInfo';
+import { IRxWebSocketClient } from '@internal/IRxWebSocketClient';
+import { IWebSocketClient } from '@internal/IWebSocketClient';
+import { StorageController } from '@internal/StorageController';
 import { Observable } from 'rxjs';
-import { HttpRequest } from '../internal/httpClient/HttpRequest';
+import { HttpRequest } from '@internal/HttpRequest';
 var pjson = require('../package.json');
 
 // var providers: {

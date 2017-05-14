@@ -1,5 +1,5 @@
-import { IObjectState } from './IObjectState';
-import { RxAVApp } from '../../../public/RxAVClient';
+import { IObjectState } from '@internal/IObjectState';
+import { RxAVApp } from 'RxAVClient';
 const _hasOwnProperty = Object.prototype.hasOwnProperty;
 export const has = function (obj: any, prop: any) {
     return _hasOwnProperty.call(obj, prop);

@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { RxAVClient, RxAVObject, RxAVQuery, RxAVUser, RxAVApp } from '../RxLeanCloud';
+import { RxAVClient, RxAVObject, RxAVQuery, RxAVUser, RxAVApp } from 'RxLeanCloud';
 
 /**
  * 一条推送消息

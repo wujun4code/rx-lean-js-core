@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { IObjectState } from '../../object/state/IObjectState';
+import { IObjectState } from '@internal/IObjectState';
 
 export /**
  * iUserController

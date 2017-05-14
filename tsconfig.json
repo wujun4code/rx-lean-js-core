@@ -12,7 +12,39 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es2017",
-    "baseUrl": "src/"
+    "baseUrl": ".",
+    "paths": {
+      "@internal/*": [
+        "src/internal/*",
+        "src/internal/analytics/*",
+        "src/internal/analytics/controller/*",
+        "src/internal/command/*",
+        "src/internal/encoding/*",
+        "src/internal/httpClient/*",
+        "src/internal/LeanEngine/controller/*",
+        "src/internal/LeanEngine/encoding/*",
+        "src/internal/object/*",
+        "src/internal/object/controller/*",
+        "src/internal/object/state/*",
+        "src/internal/query/*",
+        "src/internal/query/controller/*",
+        "src/internal/storage/*",
+        "src/internal/storage/controller/*",
+        "src/internal/tool/*",
+        "src/internal/tool/controller/*",
+        "src/internal/user/*",
+        "src/internal/user/controller/*",
+        "src/internal/websocket/*",
+        "src/internal/websocket/controller/*"
+      ],
+      "@public/*": [
+        "src/public/*"
+      ],
+      "*": [
+        "src/public/*",
+        "src/*"
+      ]
+    }
   },
   "include": [
     "src/**/*",

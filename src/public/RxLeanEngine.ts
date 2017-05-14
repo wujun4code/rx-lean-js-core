@@ -1,7 +1,7 @@
-import { SDKPlugins } from '../internal/SDKPlugins';
+import { SDKPlugins } from '@internal/SDKPlugins';
 import { Observable } from 'rxjs';
-import { ILeanEngineController } from '../internal/LeanEngine/controller/ILeanEngineController';
-import { RxAVUser, RxAVApp } from '../RxLeanCloud';
+import { ILeanEngineController } from '@internal/LeanEngine/controller/ILeanEngineController';
+import { RxAVUser, RxAVApp } from 'RxLeanCloud';
 
 export class RxLeanEngine {
 

@@ -1,8 +1,8 @@
-import { SDKPlugins } from '../internal/SDKPlugins';
-import { RxAVClient, RxAVObject, RxAVACL, RxAVUser } from '../RxLeanCloud';
-import { IObjectState } from '../internal/object/state/IObjectState';
-import { MutableObjectState } from '../internal/object/state/MutableObjectState';
-import { IUserController } from '../internal/user/controller/iUserController';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { RxAVClient, RxAVObject, RxAVACL, RxAVUser } from 'RxLeanCloud';
+import { IObjectState } from '@internal/IObjectState';
+import { MutableObjectState } from '@internal/MutableObjectState';
+import { IUserController } from '@internal/iUserController';
 import { Observable } from 'rxjs';
 
 /**

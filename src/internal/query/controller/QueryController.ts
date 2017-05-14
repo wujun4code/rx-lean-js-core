@@ -1,9 +1,9 @@
-import { IObjectState } from '../../object/state/IObjectState';
-import { IQueryController } from './IQueryController';
-import { AVCommand } from '../../command/AVCommand';
-import { IAVCommandRunner } from '../../command/IAVCommandRunner';
-import { RxAVQuery } from '../../../RxLeancloud';
-import { SDKPlugins } from '../../SDKPlugins';
+import { IObjectState } from '@internal/IObjectState';
+import { IQueryController } from '@internal/IQueryController';
+import { AVCommand } from '@internal/AVCommand';
+import { IAVCommandRunner } from '@internal/IAVCommandRunner';
+import { RxAVQuery } from 'RxLeancloud';
+import { SDKPlugins } from '@internal/SDKPlugins';
 import { Observable } from 'rxjs';
 
 export /**

@@ -1,11 +1,11 @@
-import { HttpResponse } from '../../httpClient/HttpResponse';
-import { AVCommand } from '../../command/AVCommand';
-import { RxAVClient } from '../../../public/RxAVClient';
+import { HttpResponse } from '@internal/HttpResponse';
+import { AVCommand } from '@internal/AVCommand';
+import { RxAVClient } from 'RxAVClient';
 import { Observable } from 'rxjs';
-import { IObjectState } from '../../object/state/IObjectState';
-import { IUserController } from './iUserController';
-import { SDKPlugins } from '../../SDKPlugins';
-import { IAVCommandRunner } from '../../command/IAVCommandRunner';
+import { IObjectState } from '@internal/IObjectState';
+import { IUserController } from '@internal/iUserController';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { IAVCommandRunner } from '@internal/IAVCommandRunner';
 
 export /**
  * UserController

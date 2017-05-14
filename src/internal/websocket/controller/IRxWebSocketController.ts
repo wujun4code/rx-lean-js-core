@@ -1,12 +1,11 @@
 import { Observable, Observer, Subject } from 'rxjs';
-import { HttpRequest } from '../../httpClient/HttpRequest';
-import { HttpResponse } from '../../httpClient/HttpResponse';
-import { IRxHttpClient } from '../../httpClient/iRxHttpClient';
-import { RxAVClient } from '../../../public/RxAVClient';
-import { IRxWebSocketClient } from '../IRxWebSocketClient';
-import { AVCommand } from '../../command/AVCommand';
-import { AVCommandResponse } from '../../command/AVCommandResponse';
-import { IWebSocketClient } from '../IWebSocketClient';
+import { HttpRequest } from '@internal/HttpRequest';
+import { HttpResponse } from '@internal/HttpResponse';
+import { IRxHttpClient } from '@internal/iRxHttpClient';
+import { IRxWebSocketClient } from '@internal/IRxWebSocketClient';
+import { AVCommand } from '@internal/AVCommand';
+import { AVCommandResponse } from '@internal/AVCommandResponse';
+import { IWebSocketClient } from '@internal/IWebSocketClient';
 
 export interface IRxWebSocketController {
     websocketClient: IWebSocketClient;

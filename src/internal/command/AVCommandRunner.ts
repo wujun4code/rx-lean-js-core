@@ -1,9 +1,9 @@
 import { Observable } from 'rxjs';
-import { AVCommand } from './AVCommand';
-import { AVCommandResponse } from './AVCommandResponse';
-import { HttpResponse } from '../httpClient/HttpResponse';
-import { IAVCommandRunner } from './IAVCommandRunner';
-import { IRxHttpClient } from '../httpClient/iRxHttpClient';
+import { AVCommand } from '@internal/AVCommand';
+import { AVCommandResponse } from '@internal/AVCommandResponse';
+import { HttpResponse } from '@internal/HttpResponse';
+import { IAVCommandRunner } from '@internal/IAVCommandRunner';
+import { IRxHttpClient } from '@internal/iRxHttpClient';
 
 export class AVCommandRunner implements IAVCommandRunner {
 

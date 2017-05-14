@@ -1,9 +1,9 @@
 import { Observable } from 'rxjs';
-import { RxAVUser } from './RxAVUser';
-import { RxAVClient, RxAVObject, RxAVApp } from '../RxLeanCloud';
-import { SDKPlugins } from '../internal/SDKPlugins';
-import { IAnalyticsController } from '../internal/analytics/controller/IAnalyticsController';
-import { IToolController } from '../internal/tool/controller/IToolController';
+import { RxAVUser } from 'RxAVUser';
+import { RxAVClient, RxAVObject, RxAVApp } from 'RxLeanCloud';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { IAnalyticsController } from '@internal/IAnalyticsController';
+import { IToolController } from '@internal/IToolController';
 /**
  * 统计服务的操作接口
  * 当前版本只支持启动发送，也就是每一次启动之后，需要主动调用 report 接口去把上一次统计的数据发送到云端

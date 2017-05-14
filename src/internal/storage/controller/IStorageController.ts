@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { IStorage } from '../IStorage';
+import { IStorage } from '@internal/IStorage';
 
 export interface IStorageController {
     isDirty: boolean;

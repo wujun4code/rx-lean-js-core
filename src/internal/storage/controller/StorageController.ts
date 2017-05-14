@@ -1,6 +1,6 @@
-import { IStorageController } from './IStorageController';
+import { IStorageController } from '@internal/IStorageController';
 import { Observable } from 'rxjs';
-import { IStorage } from '../IStorage';
+import { IStorage } from '@internal/IStorage';
 
 export class StorageController implements IStorageController {
     private storageFileName: string = 'RxApplicationSettings';

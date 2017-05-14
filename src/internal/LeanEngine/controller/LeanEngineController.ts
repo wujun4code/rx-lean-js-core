@@ -1,8 +1,8 @@
-import { ILeanEngineController } from './ILeanEngineController'
+import { ILeanEngineController } from '@internal/ILeanEngineController'
 import { Observable } from 'rxjs';
-import { AVCommand } from '../../command/AVCommand';
-import { SDKPlugins } from '../../SDKPlugins';
-import { ILeanEngineDecoder } from '../encoding/ILeanEngineDecoder';
+import { AVCommand } from '@internal/AVCommand';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { ILeanEngineDecoder } from '@internal/ILeanEngineDecoder';
 
 export class LeanEngineController implements ILeanEngineController {
     private _LeanEngineDecoder: ILeanEngineDecoder;

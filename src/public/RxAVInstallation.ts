@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
-import { RxAVClient, RxAVObject } from '../RxLeanCloud';
-import { SDKPlugins } from '../internal/SDKPlugins';
-import { IObjectState } from '../internal/object/state/IObjectState';
+import { RxAVClient, RxAVObject } from 'RxLeanCloud';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { IObjectState } from '@internal/IObjectState';
 import * as jstz from 'jstz';
 
 /**

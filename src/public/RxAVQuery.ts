@@ -1,11 +1,11 @@
-import { RxAVClient, RxAVObject, RxAVUser, ICanSaved } from '../RxLeanCloud';
-import { IQueryController } from '../internal/query/controller/IQueryController';
-import { IObjectState } from '../internal/object/state/IObjectState';
-import { SDKPlugins } from '../internal/SDKPlugins';
-import { IAVEncoder } from '../internal/encoding/IAVEncoder';
+import { RxAVClient, RxAVObject, RxAVUser, ICanSaved,RxAVRealtime, RxAVApp  } from 'RxLeanCloud';
+import { IQueryController } from '@internal/IQueryController';
+import { IObjectState } from '@internal/object/state/IObjectState';
+import { SDKPlugins } from '@internal/SDKPlugins';
+import { IAVEncoder } from '@internal/encoding/IAVEncoder';
 import { Observer, Observable, Subject } from 'rxjs';
-import { AVCommandResponse } from '../internal/command/AVCommandResponse';
-import { RxAVRealtime, RxAVApp } from '../RxLeanCloud';
+import { AVCommandResponse } from '@internal/command/AVCommandResponse';
+
 /**
  * 针对 RxAVObject 的查询构建类
  * 
@@ -411,8 +411,8 @@ export /**
     }
 }
 
-import { AVCommand } from '../internal/command/AVCommand';
-import { IRxWebSocketController } from '../internal/websocket/controller/IRxWebSocketController';
+import { AVCommand } from '@internal/command/AVCommand';
+import { IRxWebSocketController } from '@internal/websocket/controller/IRxWebSocketController';
 export class RxAVLiveQuery implements ICanSaved {
 
     constructor(options?: any) {

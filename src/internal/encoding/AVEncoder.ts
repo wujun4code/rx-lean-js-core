@@ -1,5 +1,5 @@
-import { RxAVClient, RxAVObject, RxAVACL } from '../../RxLeanCloud';
-import { IAVEncoder } from './IAVEncoder';
+import { RxAVClient, RxAVObject, RxAVACL } from 'RxLeanCloud';
+import { IAVEncoder } from '@internal/IAVEncoder';
 
 export /**
  *  AVEncoder

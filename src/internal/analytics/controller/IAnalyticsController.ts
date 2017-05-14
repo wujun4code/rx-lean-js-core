@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
-import { IDeviceInfo } from '../IDeviceInfo';
-import { RxAVAnalytics } from '../../../public/RxAVAnalytics';
+import { IDeviceInfo } from '@internal/IDeviceInfo';
+import { RxAVAnalytics } from 'RxAVAnalytics';
 
 export interface IAnalyticsController {
     deviceProvider: IDeviceInfo;

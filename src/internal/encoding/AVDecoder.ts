@@ -1,5 +1,5 @@
-import { IAVDecoder } from './IAVDecoder';
-import { RxAVObject, RxAVACL } from '../../RxLeanCloud';
+import { IAVDecoder } from '@internal/IAVDecoder';
+import { RxAVObject, RxAVACL } from 'RxLeanCloud';
 
 export class AVDecoder implements IAVDecoder {
 
