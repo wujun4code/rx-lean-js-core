@@ -43,6 +43,9 @@
       "*": [
         "src/public/*",
         "src/*"
+      ],
+      "rxjs":[
+        "node_modules/rxjs/Rx.js"
       ]
     }
   },
