@@ -11,6 +11,7 @@
     "ready": "tsc && node out/test/utils/init.js && mocha --timeout 30000 $(find out/test -name '*.js') && gulp",
     "pretest": "tsc && gulp devCopy",
     "test": "node out/test/utils/init.js && mocha --timeout 30000 $(find out/test -name '*.js')",
+    "test-win": "node out/test/utils/init.js && mocha --timeout 30000 $(find out\test -name '*.js')",
     "prepublish": "tsc && gulp"
   },
   "author": "Wu Jun",

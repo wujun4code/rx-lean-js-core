@@ -10,7 +10,7 @@
     ],
     "outDir": "out",
     "module": "commonjs",
-    "moduleResolution": "classic",
+    "moduleResolution": "node",
     "target": "es2017",
     "baseUrl": ".",
     "paths": {
